@@ -1,0 +1,22 @@
+we need below softwares to run this project
+Java 17 
+nodejs 16
+docker 
+dockercompose
+---------------------------------------------------------
+Under app folder there is forntend and backend project existed 
+ frontend - nextjs
+  backend - nodejs 
+  db - postgress
+------------------------------------------------------------
+  deployment steps 
+  from root project where package.json exists
+  npm install  --- this will install depndcies for the project 
+
+  2) to up the container 
+    npm run compose:up   -- This has reference in package.json
+
+    Note: This issue docker-compse file under app folder 
+
+  3) t remove conatiner 
+       npm run compose:down  --- this referece in package.json
